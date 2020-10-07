@@ -1,1 +1,6 @@
-hello {{ name }}!
+<title>Hello from Flask</title>
+{% if name %}
+    hello {{ name }}!
+{% else %}
+    hello world!
+{% endif %}
